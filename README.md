@@ -4,7 +4,7 @@ Url:
 >     /contact
 
 Method:
->     POST | Get
+>     POST | GET
 
 Required:
 >     name: string,
@@ -22,3 +22,10 @@ Url:
 Method:
 >     GET | PUT | DELETE
 
+Optional(PUT)
+>     name: string,
+>     phone_num: integer,
+>     city: string,
+>     state: string,
+>     photo_url: string,
+>     email: string
