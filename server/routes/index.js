@@ -1,5 +1,4 @@
-const ContactController = require('../controllers/contact')
-
+const ContactController = require('../controllers/contact');
 
 module.exports = (app) => {
   app.use(function(req, res, next) {
